@@ -1,4 +1,4 @@
-import { HeadContent, createFileRoute, Link } from "@tanstack/react-router";
+import { HeadContent, createFileRoute } from "@tanstack/react-router";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import { ideasQueryOptions } from "@/api/ideas";
 

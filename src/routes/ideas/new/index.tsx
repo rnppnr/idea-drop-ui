@@ -41,7 +41,7 @@ function NewIdeasPage() {
     if (isPending) return;
 
     const newIdea: Idea = {
-      id: Date.now().toString(), // Temporary ID generation
+      _id: Date.now().toString(), // Temporary ID generation
       title,
       summary,
       description,
